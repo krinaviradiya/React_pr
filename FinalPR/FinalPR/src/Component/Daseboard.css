@@ -1,0 +1,109 @@
+
+.dashboard-container {
+  max-width: 800px;
+  padding: 20px;
+ background-color: #BA5370;
+  border-radius: 20px;
+  box-shadow: 0 20px 10px rgba(29, 1, 1, 0.167);
+  text-align: center;
+ 
+}
+
+.dashboard-greeting {
+  font-size: 70px;
+  color: #F4E2D8;
+  margin-bottom: 30px;
+  
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 20px;
+  border: 2px dotted #5b0511;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #5b0511;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #F4E2D8;
+}
+.input-field::placeholder{
+  color: #BA5370;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #5b0511;
+  background-color: #F4E2D8;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+  
+}
+
+.submit-button:hover {
+  background-color: #5b0511;
+  border: 1px #F4E2D8 double;
+  
+}
+
+.record-table {
+  width: 100%;
+  /* border-collapse: collapse; */
+  margin-top: 20px;
+  background-color: #F4E2D8;
+  border: 2px solid #5b0511;
+  padding: 10px;
+}
+
+.record-table th,
+.record-table td {
+  padding: 10px;
+  font-size: 20px;
+  color: #5b0511;
+  border: 2px dotted #5b0511;
+}
+
+.record-table th {
+  background-color: #F4E2D8;
+}
+
+.record-item:nth-child(even) {
+  background-color: #F4E2D8;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #F4E2D8;
+  color: #5b0511;
+  border: 2px solid #5b0511;
+  margin-right: 5px;
+}
+
+.edit-button:hover {
+  background-color: #5b0511;
+  border: 2px solid #F4E2D8;
+}
+
+.delete-button {
+  background-color: #F4E2D8;
+  color:#5b0511;
+  border: 2px solid #5b0511;
+
+}
+
+.delete-button:hover {
+  background-color: #5b0511;
+  border: 2px solid #F4E2D8;
+}
